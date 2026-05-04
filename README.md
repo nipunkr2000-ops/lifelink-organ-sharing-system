@@ -80,6 +80,22 @@ Lifelink provides a digital healthcare platform to:
 
 Designed to support faster donor-recipient matching and improve operational efficiency in healthcare workflows.
 
+
+
+## Application Screenshots
+
+### Login Screen
+![Login](screenshots/login-screen.png)
+
+### Admin Dashboard
+![Admin](screenshots/admin-dashboard.png)
+
+### User Dashboard
+![User](screenshots/user-dashboard.png)
+
+### Doctor Dashboard
+![Doctor](screenshots/doctor-dashboard.png)
+
 ---
 
 ## Future Scope
