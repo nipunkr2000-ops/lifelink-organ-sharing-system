@@ -96,6 +96,43 @@ Designed to support faster donor-recipient matching and improve operational effi
 ### Doctor Dashboard
 ![Doctor](screenshots/doctor-dashboard.png)
 
+
+# Android Source Code
+
+This folder contains the core mobile application source code for the Lifelink project.
+
+## Technology Stack
+
+- Java
+- Android SDK
+- Apache Cordova
+- XML
+- Gradle
+
+## Folder Contents
+
+### MainActivity.java
+Main entry point of the Android application responsible for launching the Cordova-based mobile app. :contentReference[oaicite:0]{index=0}
+
+### WhitelistPlugin.java
+Handles URL access, navigation security, and external intent permissions within the Android application. :contentReference[oaicite:1]{index=1}
+
+### config.xml
+Cordova application configuration file defining application metadata, plugins, startup behavior, and permissions. :contentReference[oaicite:2]{index=2}
+
+### strings.xml
+Android resource file containing application strings such as app name and launcher configuration. :contentReference[oaicite:3]{index=3}
+
+## Key Features Implemented
+
+- Role-based user access (Admin / Doctor / User)
+- Organ donation and request workflows
+- Secure mobile application navigation
+- Multi-module healthcare workflow management
+
+## Purpose
+
+This source code supports the mobile frontend of the Lifelink platform and enables real-time interaction between donors, recipients, doctors, and administrators.
 ---
 
 ## Future Scope
@@ -103,3 +140,10 @@ Designed to support faster donor-recipient matching and improve operational effi
 - AI-based donor matching
 - Real-time notifications
 - Mobile application integration
+
+## My Contribution
+
+- Designed application workflow and user journeys
+- Developed Android/Cordova-based mobile modules
+- Integrated role-based access for Admin, Doctor, and Users
+- Managed application configuration and deployment structure
